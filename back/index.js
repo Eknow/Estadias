@@ -73,7 +73,6 @@ app.post("/alumno/agregar", (req, res) => {
       telefono_empresa,
       fecha_vinculacion,
       nombre_representante_vinculacion,
-      "default.jpg",
       aDocumento,
     ],
     (err, result) => {
